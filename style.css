@@ -65,15 +65,15 @@
   
   /* Adicionar imagens de fundo nos anos */
   #year2022 {
-    background-image: url('2022.jpg.jpeg');
+    background-image: url('2022.jpeg');
 }
 
 #year2023 {
-    background-image: url('2023.jpg.jpeg');
+    background-image: url('2023.jpeg');
 }
 
 #year2024 {
-    background-image: url('2024.jpg.jpeg');
+    background-image: url('2024.jpeg');
 }
 
   
