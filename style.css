@@ -46,17 +46,34 @@ header p {
 
 /* Caixa de cada ano */
 .year-box {
-  background: #ffffff;
+  background-color: rgba(255, 255, 255, 0.8); /* Fundo branco transparente para que a imagem apareça */
   border-radius: 10px;
   padding: 20px;
   width: 250px;
   text-align: center;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease-in-out;
+  background-position: center;
+  background-size: cover;
+  height: 350px; /* Ajuste a altura de acordo com o conteúdo */
 }
 
+/* Efeito de hover nas caixas */
 .year-box:hover {
   transform: translateY(-10px);
+}
+
+/* Adicionar imagens de fundo nos anos */
+#year2022 {
+  background-image: url('2022.jpeg'); /* Caminho para a imagem de 2022 */
+}
+
+#year2023 {
+  background-image: url('2023.jpeg'); /* Caminho para a imagem de 2023 */
+}
+
+#year2024 {
+  background-image: url('2024.jpeg'); /* Caminho para a imagem de 2024 */
 }
 
 .year-box h2 {
@@ -69,33 +86,6 @@ header p {
 .year-box p {
   font-size: 1.1em;
   color: #555;
-}
-
-/* Estilos para cada ano com cores diferentes */
-#year2022 {
-  background: #fce8e8;
-}
-
-#year2023 {
-  background: #e0f7fa;
-}
-
-#year2024 {
-  background: #d1c4e9;
-}
-
-/* Estilo das imagens dentro das caixas */
-.year-image {
-  width: 100%;
-  height: auto;
-  border-radius: 8px;
-  margin-top: 15px;
-  transition: transform 0.3s ease;
-}
-
-/* Efeito de zoom nas imagens quando o usuário passa o mouse */
-.year-image:hover {
-  transform: scale(1.05); /* Efeito de zoom suave */
 }
 
 /* Links */
