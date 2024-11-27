@@ -9,7 +9,7 @@
   body {
     font-family: 'Arial', sans-serif;
     background: #f0f0f0;
-    color: #333;
+    color: #062eb1;
     line-height: 1.6;
     padding: 20px;
   }
@@ -86,7 +86,7 @@
   
   .year-box p {
     font-size: 1.1em;
-    color: #555;
+    color: #062eb1;
   }
   
   /* Links */
