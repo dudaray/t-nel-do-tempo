@@ -65,16 +65,17 @@
   
   /* Adicionar imagens de fundo nos anos */
   #year2022 {
-    background-image: url('2022.jpg.jpeg'); /* Caminho para a imagem de 2022 */
-  }
-  
-  #year2023 {
-    background-image: url('2023.jpg.jpeg'); /* Caminho para a imagem de 2023 */
-  }
-  
-  #year2024 {
-    background-image: url('2024.jpg.jpeg'); /* Caminho para a imagem de 2024 */
-  }
+    background-image: url('2022.jpg.jpeg');
+}
+
+#year2023 {
+    background-image: url('2023.jpg.jpeg');
+}
+
+#year2024 {
+    background-image: url('2024.jpg.jpeg');
+}
+
   
   .year-box h2 {
     font-size: 2em;
