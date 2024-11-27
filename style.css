@@ -1,134 +1,134 @@
 /* Reset de estilo padrão do navegador */
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-/* Estilo geral do body */
-body {
-  font-family: 'Arial', sans-serif;
-  background: #f0f0f0;
-  color: #333;
-  line-height: 1.6;
-  padding: 20px;
-}
-
-/* Estilo do header */
-header {
-  text-align: center;
-  padding: 40px 20px;
-  background: #1e3a8a;
-  color: white;
-  border-radius: 10px;
-  margin-bottom: 30px;
-}
-
-header h1 {
-  font-size: 3em;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-}
-
-header p {
-  font-size: 1.2em;
-  margin-top: 10px;
-}
-
-/* Estilo da linha do tempo */
-.timeline {
-  display: flex;
-  justify-content: space-around;
-  gap: 30px;
-  flex-wrap: wrap;
-  margin-top: 50px;
-}
-
-/* Caixa de cada ano */
-.year-box {
-  background-color: rgba(255, 255, 255, 0.8); /* Fundo branco transparente para que a imagem apareça */
-  border-radius: 10px;
-  padding: 20px;
-  width: 250px;
-  text-align: center;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease-in-out;
-  background-position: center;
-  background-size: cover;
-  height: 350px; /* Ajuste a altura de acordo com o conteúdo */
-}
-
-/* Efeito de hover nas caixas */
-.year-box:hover {
-  transform: translateY(-10px);
-}
-
-/* Adicionar imagens de fundo nos anos */
-#year2022 {
-  background-image: url('2022.jpeg'); /* Caminho para a imagem de 2022 */
-}
-
-#year2023 {
-  background-image: url('2023.jpeg'); /* Caminho para a imagem de 2023 */
-}
-
-#year2024 {
-  background-image: url('2024.jpeg'); /* Caminho para a imagem de 2024 */
-}
-
-.year-box h2 {
-  font-size: 2em;
-  margin-bottom: 10px;
-  color: #1e3a8a;
-  text-transform: uppercase;
-}
-
-.year-box p {
-  font-size: 1.1em;
-  color: #555;
-}
-
-/* Links */
-.more-info {
-  display: inline-block;
-  margin-top: 15px;
-  padding: 10px 20px;
-  background-color: #1e3a8a;
-  color: white;
-  text-decoration: none;
-  border-radius: 5px;
-  font-size: 1.1em;
-  transition: background-color 0.3s;
-}
-
-.more-info:hover {
-  background-color: #3b5998; /* Cor de hover */
-}
-
-/* Efeito de transição de entrada */
-@keyframes fadeIn {
-  from {
-      opacity: 0;
-      transform: translateY(20px);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
   }
-  to {
-      opacity: 1;
-      transform: translateY(0);
+  
+  /* Estilo geral do body */
+  body {
+    font-family: 'Arial', sans-serif;
+    background: #f0f0f0;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
   }
-}
-
-body {
-  animation: fadeIn 1s ease-out;
-}
-
-/* Estilo do footer */
-footer {
-  text-align: center;
-  padding: 20px;
-  background: #1e3a8a;
-  color: white;
-  border-radius: 10px;
-  position: fixed;
-  width: 100%;
-  bottom: 0;
-}
+  
+  /* Estilo do header */
+  header {
+    text-align: center;
+    padding: 40px 20px;
+    background: #0b173a;
+    color: white;  
+    border-radius: 10px;
+    margin-bottom: 30px;
+  }
+  
+  header h1 {
+    font-size: 3em;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  
+  header p {
+    font-size: 1.2em;
+    margin-top: 10px;
+  }
+  
+  /* Estilo da linha do tempo */
+  .timeline {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 50px;
+  }
+  
+  /* Caixa de cada ano */
+  .year-box {
+    background-color: rgba(255, 255, 255, 0.8); /* Fundo branco transparente para que a imagem apareça */
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    background-position: center;
+    background-size: cover;
+    height: 350px; /* Ajuste a altura de acordo com o conteúdo */
+  }
+  
+  /* Efeito de hover nas caixas */
+  .year-box:hover {
+    transform: translateY(-10px);
+  }
+  
+  /* Adicionar imagens de fundo nos anos */
+  #year2022 {
+    background-image: url('2022.jpg.jpeg'); /* Caminho para a imagem de 2022 */
+  }
+  
+  #year2023 {
+    background-image: url('2023.jpg.jpeg'); /* Caminho para a imagem de 2023 */
+  }
+  
+  #year2024 {
+    background-image: url('2024.jpg.jpeg'); /* Caminho para a imagem de 2024 */
+  }
+  
+  .year-box h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #0b173a;
+    text-transform: uppercase;
+  }
+  
+  .year-box p {
+    font-size: 1.1em;
+    color: #555;
+  }
+  
+  /* Links */
+  .more-info {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #0b173a;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    transition: background-color 0.3s;
+  }
+  
+  .more-info:hover {
+    background-color: #0b173a; /* Cor de hover */
+  }
+  
+  /* Efeito de transição de entrada */
+  @keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+  }
+  
+  body {
+    animation: fadeIn 1s ease-out;
+  }
+  
+  /* Estilo do footer */
+  footer {
+    text-align: center;
+    padding: 20px;
+    background: #0b173a;
+    color: white;
+    border-radius: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
